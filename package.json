@@ -1,0 +1,28 @@
+{
+    "name": "todolist-ia-core-backend",
+    "version": "1.0.0",
+    "description": "Backend proxy for TodoList IA Core OpenAI calls",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "todo",
+      "ai",
+      "openai",
+      "proxy",
+      "backend"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.19.2",
+      "node-fetch": "^2.7.0"
+    },
+    "engines": {
+      "node": ">=18.0.0" 
+    }
+  }
+  
